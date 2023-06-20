@@ -1,0 +1,265 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  background-image: url("nasa-pd4lo70LdbI-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+header {
+  background-color: #01161d81;
+  color: #3cfd8c;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+}
+h1 {
+  margin: 0;
+}
+nav {
+  margin-top: 20px;
+  position: relative;
+  left: 550px;
+  top: -75px;
+  width: 100%;
+}
+.cr{
+  cursor: pointer;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin-right: 20px;
+  position: relative;
+}
+nav ul li:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+nav ul li a {
+  color: #ffffffe5;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+nav ul li:hover a {
+  color: #f55ffa;
+}
+nav ul li::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.3);
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+nav ul li:hover::after {
+  opacity: 1;
+}
+.logo {
+  margin-bottom: 1%;
+  border-radius: 50%;
+  position: relative;
+  left: -700px;
+}
+.logo img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  
+
+}
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+  border-radius: 25px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+h2{
+  color: #26ca6a;
+}
+dt{
+  color: #cb37d0;
+}
+
+.container{
+  cursor: pointer;
+}
+.container .card .icon .dif {
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  background-image: url(ThreeLuna\ \(2\).png);
+
+}
+.container .card .icon {
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  background-image: url(ThreeLuna\ \(3\).png);
+
+}
+.container .card .icon .fa {
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  font-size: 80px;
+
+  color: #fff;
+
+}
+
+.container .card .slide {
+
+  width: 300px;
+
+  height: 200px;
+
+  transition: 0.5s;
+
+}
+
+.container .card .slide.slide1 {
+
+  position: relative;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  z-index: 1;
+
+  transition: .7s;
+
+  transform: translateY(100px);
+
+}
+
+.container .card:hover .slide.slide1{
+
+  transform: translateY(0px);
+
+}
+
+.container .card .slide.slide2 {
+
+  position: relative;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  transition: .8s;
+
+  transform: translateY(-100px);
+
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+
+}
+
+.container .card:hover .slide.slide2{
+
+  transform: translateY(0);
+
+}
+
+.container .card .slide.slide2::after{
+
+  content: "";
+
+  position: absolute;
+
+  width: 30px;
+
+  height: 4px;
+
+  bottom: 15px;
+
+  left: 50%;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  background: #2c73df;
+
+}
+
+.container .card .slide.slide2 .content p {
+
+  margin: 0;
+
+  padding: 0;
+
+  text-align: left;
+
+  color: #414141;
+
+}
+.aprn{
+ text-align: left;
+ position: relative;
+ left: -20px;
+}
+.container .card .slide.slide2 .content h3 {
+
+  margin: 0 0 10px 0;
+
+  padding: 0;
+
+  font-size: 24px;
+
+  color: #414141;
+
+}
+.cont2{
+  position: absolute;
+  left: 800px;
+  top: 415px;
+} 
